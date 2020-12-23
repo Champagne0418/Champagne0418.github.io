@@ -98,7 +98,10 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+# 目前使用的主题配置
+## repo：https://github.com/wwwuxt/hexo-theme-artemisX
+## ps：更新时cd到这个theme的文件夹里git pull就行了
+theme: artemisX
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
