@@ -109,3 +109,10 @@ deploy:
   type: git
   repo: https://github.com/Champagne0418/Champagne0418.github.io.git
   branch: main
+
+# Mermaid
+mermaid:
+  enable: true
+  version: "7.1.2"
+  options:
+    startOnload: true
