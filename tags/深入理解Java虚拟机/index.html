@@ -1,0 +1,53 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="X-UA-Compatible" content="IE=edge"><title>tag-深入理解Java虚拟机 | 程小可今天还是倒数吗</title><meta name="description" content="wwwuxt.cc"><meta name="google-site-verification" content="E8VUvVH5vDhYzozsHCnyTf31z8dllC9fXQrHn0GK6VU"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="icon" href="/favicon.ico"><link rel="stylesheet" href="/css/theme.css"><link rel="search" type="application/opensearchdescription+xml" href="/atom.xml" title="程小可今天还是倒数吗"><link rel="stylesheet" href="/css/font-awesome.min.css"><meta name="generator" content="Hexo 5.3.0"></head><body><div class="wrap"><header><h1 class="branding"><a href="/" title="程小可今天还是倒数吗"><img class="logo-image" src="/favicon.ico" alt="logo"></a></h1><ul class="nav nav-list"><li class="nav-list-item"><!--a.nav-list-link(class={active: act} href=url_for(value), target=tar)--><a class="nav-list-link" href="/" target="_self">首页</a></li><li class="nav-list-item"><!--a.nav-list-link(class={active: act} href=url_for(value), target=tar)--><a class="nav-list-link" href="/archives" target="_self">归档</a></li><li class="nav-list-item"><!--a.nav-list-link(class={active: act} href=url_for(value), target=tar)--><a class="nav-list-link" href="/tags" target="_self">标签</a></li><li class="nav-list-item"><!--a.nav-list-link(class={active: act} href=url_for(value), target=tar)--><a class="nav-list-link" href="/about" target="_self">关于</a></li><li class="nav-list-item"><!--a.nav-list-link(class={active: act} href=url_for(value), target=tar)--><a class="nav-list-link" href="/categories" target="_self">分类</a></li></ul></header><main class="container"><h1 class="page_tag"><i class="fa fa-tag">&nbsp;</i>深入理解Java虚拟机</h1><div class="archive"><h2 class="archive-year">2020</h2><div class="post-item"><div class="post-info"><a></a>2020-12-03</div><a class="post-title-link" href="/2020/12/03/java-jvm-classloading/">JVM类加载机制</a></div></div></main><footer><div class="paginator"></div><div class="clearfix"></div><div class="copyright"><p id="host_by"> <a href="/atom.xml"><i class="fa fa-rss"></i></a><span id="busuanzi_container_site_pv">&nbsp;<i class="fa fa-eye">&nbsp;</i><span id="busuanzi_value_site_pv"><i class="fa fa-spinner"></i></span> times, </span><span id="busanzi_container_site_uv">&nbsp;<i class="fa fa-user">&nbsp;</i><span id="busuanzi_value_site_uv"><i class="fa fa-spinner"></i></span> times.</span><br> &copy; 2020 <a href="https://champagne0418.github.io">chengxiaoke</a>. 
+ Powered by <a href="https://hexo.io/" target="_blank">Hexo</a> &amp; <a href="https://github.com/wwwuxt/hexo-theme-artemisX" target="_blank">ArtemisX</a>.<br></p><script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></footer></div><script>var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-108353521-1']);
+_gaq.push(['_trackPageview']);
+
+(function () {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+console.log('Google Analytics')
+</script><script>(function(){
+    var req = GetXmlHttpObject()  
+    if (req == null) {  
+        console.log("not support AJAX!");  
+        return;  
+    }
+    req.onreadystatechange = function() {  
+        if (req.readyState === 4 && req.status === 200) {  
+            var deploy_server = req.getResponseHeader("Server");
+            console.log(deploy_server)
+            if(deploy_server === 'Coding Pages'){
+                document.getElementById('host_by').innerHTML+='Hosted by <a target="_blank" rel="noopener" href="https://pages.coding.me" style="font-weight: bold">Coding Pages</a>.'
+            }
+            else if(deploy_server === 'GitHub.com'){
+                document.getElementById('host_by').innerHTML+='Hosted by <a target="_blank" rel="noopener" href="https://pages.github.com" style="font-weight: bold">GitHub Pages</a>.'
+            }
+            else{
+                document.getElementById('host_by').innerHTML+='Hosted by <a href="#" style="font-weight: bold">'+ deploy_server + '</a>.'
+            }
+        }  
+    };  
+    req.open('GET', document.location, true);
+    req.send(null);
+})();
+function GetXmlHttpObject() {  
+    var xmlHttp = null;  
+    try {  
+        // Firefox, Opera 8.0+, Safari  
+        xmlHttp = new XMLHttpRequest();  
+    } catch (e) {  
+        // Internet Explorer  
+        try {  
+            xmlHttp = new ActiveXObject("Msxml2.XMLHTTP");  
+        } catch (e) {  
+            xmlHttp = new ActiveXObject("Microsoft.XMLHTTP");  
+        }  
+    }  
+    return xmlHttp;  
+}  </script><script type="text/javascript" id="maid-script" mermaidoptioins="{&quot;startOnload&quot;:true}" src="https://unpkg.com/mermaid@7.1.2/dist/mermaid.min.js"></script><script>if (window.mermaid) {
+  var options = JSON.parse(document.getElementById('maid-script').getAttribute('mermaidoptioins'));
+  mermaid.initialize(options);
+}</script></body></html>
